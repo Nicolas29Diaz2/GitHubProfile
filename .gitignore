@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+.next/
+**/.next/
+out/
+**/out/
+build/
+**/build/
+
+# Environment files (contains secrets)
+.env
+**/env
+.env.local
+**/.env.local
+.env*.local
+
+# Debug and OS logs
+*.log
+**/npm-debug.log*
+.DS_Store
+Thumbs.db
+coverage/
